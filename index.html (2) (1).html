@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Application Programming Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Introduction to Web Application Programming</h1>
+        <nav>
+            <a href="#html">HTML</a>
+            <a href="#lists">Lists</a>
+            <a href="#entities">Entities</a>
+            <a href="#images">Images</a>
+            <a href="#links">Links</a>
+            <a href="#map">Image Map</a>
+            <a href="#forms">Forms</a>
+            <a href="#tables">Tables</a>
+            <a href="#fonts">Fonts</a>
+        </nav>
+    </header>
+
+    <section id="html">
+        <h2>Introduction to HTML</h2>
+        <p>HTML (HyperText Markup Language) is the foundation of web pages. It provides structure and meaning to content.</p>
+    </section>
+
+    <section id="lists">
+        <h2>HTML Lists</h2>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Download editor</li>
+            <li>Write code</li>
+            <li>Test in browser</li>
+        </ol>
+    </section>
+
+    <section id="entities">
+        <h2>HTML Entities</h2>
+        <p>Less than: &lt;</p>
+        <p>Greater than: &gt;</p>
+        <p>Copyright: &copy;</p>
+        <p>Ampersand: &amp;</p>
+    </section>
+
+    <section id="images">
+        <h2>HTML img Tags</h2>
+        <img src="https://i.pinimg.com/originals/29/8f/4c/298f4cdb0362961e6ba4dccf5a0d47c7.jpg"width="300px" alt="Sample Image">
+        <img src="https://i.pinimg.com/736x/f7/4a/b8/f74ab8835f5cc815fa27764503c1f4b7.jpg"width="300px" alt="Another Image">
+
+    </section>
+
+    <section id="links">
+        <h2>HTML Links</h2>
+        <a href="https://www.google.com" target="_blank">Go to Google</a><br>
+        <a href="https://www.github.com" target="_blank">Go to GitHub</a>
+    </section>
+
+    <section id="map">
+        <h2>Image Maps using HTML</h2>
+        
+        <p>Click on different parts of the image to go to the links::</p>
+        
+        <img src="https://66.media.tumblr.com/aa411b15e75c7719492c9da110f39fc9/tumblr_pa1r5hwipt1xu38sro1_400.jpg" alt="Map Example" usemap="#examplemap">
+        
+        <map name="examplemap">
+            <!-- مستطيل -->
+            <area shape="rect" coords="50,50,200,150" href="https://www.google.com" alt="Google" target="_blank">
+            
+            <!-- دائرة -->
+            <area shape="circle" coords="400,150,50" href="https://www.youtube.com" alt="YouTube" target="_blank">
+            
+            <!-- مضلع -->
+            <area shape="poly" coords="250,50,300,100,275,150,225,125" href="https://www.facebook.com" alt="Facebook" target="_blank">
+        </map>
+    
+        <p>Or if you want to make the entire image a button:   </p>
+    
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="https://66.media.tumblr.com/aa411b15e75c7719492c9da110f39fc9/tumblr_pa1r5hwipt1xu38sro1_400.jpg" alt="Clickable Instagram Image">
+        </a>
+    </section>
+    
+
+    <section id="forms">
+        <h2>HTML Forms</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="tables">
+        <h2>HTML Tables</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>25</td>
+                <td>Jordan</td>
+            </tr>
+            <tr>
+                <td>Fatima</td>
+                <td>22</td>
+                <td>Egypt</td>
+            </tr>
+            <tr>
+                <td>Omar</td>
+                <td>30</td>
+                <td>Saudi Arabia</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="fonts">
+        <h2>CSS Fonts</h2>
+        <p style="font-family: Arial, sans-serif;">This text uses Arial font.</p>
+        <p style="font-family: 'Times New Roman', serif;">This text uses Times New Roman.</p>
+        <p style="font-family: 'Cairo', sans-serif;">هذا النص يستخدم خط Cairo (يدعم العربية).</p>
+        <p style="font-family: 'Courier New', monospace;">This is monospace (Courier New).</p>
+        <i>web Application </i> 
+        <p><b>Balqees mahmoud </b></p> 
+          <p><mark> Hello</mark> </p>
+
+       p<p><small> Hello    </small></p> 
+ 
+      <p><i>balqees</i></p> 
+
+    <p><em>ali</em> </p> 
+     <p><b>web</b> </p> 
+ 
+    <p><strong>balqees</strong></p>
+    <p><u>hi</u></p>
+    <p><del>hello</del></p> 
+ 
+   <p><strike>hello my name is balqees</strike></p>  
+
+   <p><sup>balqees mahmoud</sup></p> 
+
+    <p><sub>web</sub></p>
+        
+    </section>
+
+    <footer>
+        <p>Project by balqees &copy; 2025</p>
+    </footer>
+</body>
+</html>
+
